@@ -16,7 +16,7 @@ body {
 .navbar {
     position: fixed;
     width: 100%;
-    background: crimson;
+    background: cadetblue;
     padding: 15px 0;
 }
 
@@ -48,10 +48,9 @@ body {
 
 .navbar .menu li a {
     color: #fff;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     margin-left: 25px;
-
 }
 
 .section-separator {
@@ -62,8 +61,8 @@ body {
     margin: 30px 0 35px 0;
     height: 4px;
     width: 85%;
-    background-color: crimson;
-    border-color: crimson;
+    background-color: cadetblue;
+    border-color: cadetblue;
 }
 
 .sectionTitle {
@@ -76,7 +75,7 @@ body {
 
 
 .project-container {
-    background-color: crimson;
+    background-color: cadetblue;
     width: 85%;
     height: 30%;
     border-radius: 10px;
@@ -108,7 +107,7 @@ body {
 }
 
 .project-content-container {
-    max-width: 70%;
+    max-width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -117,15 +116,15 @@ body {
 
 .project-text {
     color: white;
-    font-size: 15px;
+    font-size: 22px;
     width: 100%;
-    line-height: 22px;
+
 }
 
 .video-link {
     color: white;
     text-decoration: underline;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .portfolio-content {
@@ -135,3 +134,84 @@ body {
     align-items: center;
 }
 
+@media only screen and (max-width: 600px) {
+    .max-width {
+        min-width: 500px;
+        padding: 0 80px;
+        margin: auto;
+    }
+
+    .crimson-button {
+        width: 200px;
+    }
+    .about-text {
+        color: white;
+        font-size: 18px;
+        width: 350px;
+        line-height: 32px;
+    }
+
+    .content-separtor {
+        margin: 20px 0;
+        height: 4px;
+        width: 350px;
+        background-color: cadetblue;
+        border-color: cadetblue;
+    }
+    .sectionTitle {
+        display: inline-block;
+        font-weight: 600;
+        color: white;
+        font-size: 32px;   
+    }
+
+    .project-container {
+        background-color: cadetblue;
+        width: 350px;
+        border-radius: 10px;
+        display: flex;
+        
+        padding: 15px;
+        margin-bottom: 35px;
+    }
+    #signly-image {
+        background-image: url("images/signly.png");
+        display: none;
+    }
+    
+    #movie-image {
+        background-image: url("images/movie.png");
+        display: none;
+    }
+
+    .project-content-container {
+        max-width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .project-title {
+        color: white;
+        font-weight: 600;
+        margin-bottom: 10px;
+        font-size: 22px;
+    }
+
+    .project-text {
+        color: white;
+        font-size: 18px;
+        width: 100%;
+    
+    }
+    
+    .video-link {
+        margin-top: 10px;
+        color: white;
+        text-decoration: underline;
+        font-size: 20px;
+    }
+    
+    
+    
+    
+  }

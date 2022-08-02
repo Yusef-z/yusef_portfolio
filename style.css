@@ -15,7 +15,7 @@ body {
 .navbar {
     position: fixed;
     width: 100%;
-    background: crimson;
+    background: cadetblue;
     padding: 15px 0;
 }
 
@@ -47,7 +47,7 @@ body {
 
 .navbar .menu li a {
     color: #fff;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     margin-left: 25px;
 
@@ -61,8 +61,8 @@ body {
     margin: 20px 0;
     height: 4px;
     width: 85%;
-    background-color: crimson;
-    border-color: crimson;
+    background-color: cadetblue;
+    border-color: cadetblue;
 }
 
 /* home section styling */
@@ -96,7 +96,7 @@ body {
 }
 
 .crimson-button {
-    background-color: crimson;
+    background-color: cadetblue;
     color: white;
     width: 25%;
     padding: 10px 20px;
@@ -108,7 +108,7 @@ body {
 
 .crimson-button:hover {
     cursor: pointer;
-    background-color: rgb(243, 43, 83);
+    background-color: #a5e2e4;
 }
 
 .button-container {
@@ -118,3 +118,30 @@ body {
     justify-content: space-evenly;
 }
 
+@media only screen and (max-width: 600px) {
+    .crimson-button {
+        width: 200px;
+    }
+    .about-text {
+        color: white;
+        font-size: 18px;
+        width: 350px;
+        line-height: 32px;
+    }
+
+    .content-separtor {
+        margin: 20px 0;
+        height: 4px;
+        width: 350px;
+        background-color: cadetblue;
+        border-color: cadetblue;
+    }
+
+    .sectionTitle {
+        display: inline-block;
+        font-weight: 600;
+        color: white;
+        font-size: 32px;
+    }
+
+  }
