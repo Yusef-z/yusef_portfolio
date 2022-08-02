@@ -119,6 +119,11 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+    .max-width {
+        min-width: 500px;
+        padding: 0 80px;
+        margin: auto;
+    }
     .crimson-button {
         width: 200px;
     }
